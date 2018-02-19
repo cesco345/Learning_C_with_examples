@@ -10,12 +10,12 @@ by the input of rows chosen by the user.
 int main ()
 {
 	int i, seed;
-    printf("Welcome to myrand.\n");
+        printf("Welcome to myrand.\n");
 	printf("This program will produce a five column table of random numbers.\n");
 	printf("Please enter the number of rows you would like: ");
 	scanf("\n%d", &seed);
 
-    srand(time(NULL));
+        srand(time(NULL));
 
 	for (i=0 ; i < seed ; ++i)
   	{
