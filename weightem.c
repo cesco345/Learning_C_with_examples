@@ -8,19 +8,19 @@ The name of this program is weightem.c . The program will allow the user to conv
 
 int main ()
 {
-	float pounds, kilos, ounces, grams; 
-	int selection;
+    float pounds, kilos, ounces, grams; 
+    int selection;
 
     printf("Welcome to weightem.\n");
-	printf("This program will allow the user to convert metric weights to english, and english to metric.\n");
-	printf("You must choose a number between 1-4.");
+    printf("This program will allow the user to convert metric weights to english, and english to metric.\n");
+    printf("You must choose a number between 1-4.");
     printf("\n1. Pounds to Kilos\n");
     printf("2. Kilos to Pounds\n");
     printf("3. Ounces to Grams\n");
     printf("4. Grams to Ounces\n");
     printf("5. Exit - Do nothing (default)\n");
     printf("Please enter your selection: ");
-	scanf("\n%d", &selection);
+    scanf("\n%d", &selection);
 	
     switch (selection)
 	{
