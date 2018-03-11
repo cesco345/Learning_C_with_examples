@@ -11,8 +11,8 @@ int main (int argc, const char * argv[])
     printf("It was the best of times.\n");
     printf("It was the worst of times.\n");
     
-   /* Is that actually any good?
-        Maybe it needs a rewrite. */
+   /* Can you recognize this novel?
+        Hint: Is written in English English, and not in American English. */
     
    return 0;
 }
