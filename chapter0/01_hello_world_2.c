@@ -1,7 +1,7 @@
 /*
-Program - How to comment a program in C
+Program - How to write a "Hello, World!" program in C
 Author - Cesco
-Date - 3/04/2018
+Date  -  3/11/18
 */
 
 #include <stdio.h>
